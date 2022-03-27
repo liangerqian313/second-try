@@ -1,0 +1,22 @@
+
+通过pytest.ini配置文件运行
+1.位置:一般放在项目的根目录.
+2.编码:必须是ANSI，可以使用notepad++修改编码格式。
+3.作用:改变pytest默认的行为。
+4.运行的规则:不管是主函数的运行，命令行模式运行，都会去读取这个配置文件。
+
+
+
+#[pytest]
+# addopts = -vs 命令行参数，用空格隔开
+
+# testpaths = ./apidemo01 测试用例文件夹，可自己配置
+
+#python_file = test*.py 配置测试搜索的模块文件名称
+
+#python_classes = Test* 配置测试搜索的测试类名
+
+#python_functions = test 配置测试搜索的测试函数名
+
+
+
